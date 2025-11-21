@@ -1,28 +1,45 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carta Romântica Decorada</title>
-    <link rel="stylesheet" href="romantica.css">
-</head>
-<body>
-    <div class="enfeite topo"></div>
+body {
+    background: #eadfcb;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
 
-    <div class="carta">
-        <h1>Minha amada,</h1>
+.pergaminho {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #f6f0e0;
+    border: 2px solid #c2a878;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    background-image: url('https://i.imgur.com/PRQfD9x.png'); /* textura leve */
+    background-size: cover;
+    background-blend-mode: multiply;
+}
 
-        <p>
-            Hoje escrevo não apenas palavras, mas sentimentos que transbordam.  
-            Como pétalas que caem suavemente sobre o papel, cada frase carrega  
-            um pedaço do meu coração — delicado, sincero e apaixonado.
-        </p>
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
 
-        <p>
-            Em cada pensamento, há um suspiro.  
-            Em cada silêncio, há você.  
-            E em cada batida do meu peito, mora um amor que não conhece fronteiras.
-        </p>
+.linha {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
 
-        <p>
-            Que esta carta, ve
+p {
+    font-size: 20px;
+    text-indent: 30px;
+    line-height: 1.8;
+}
+
+.assinatura {
+    margin-top: 40px;
+    text-align: right;
+    font-style: italic;
+    font-size: 22px;
+}
