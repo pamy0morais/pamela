@@ -1,48 +1,46 @@
 body {
     margin: 0;
-    font-family: "Segoe UI", sans-serif;
-    background: #fff0f6;
+    padding: 0;
+    font-family: "Georgia", serif;
+    background: #fde6ef;
     color: #5a0038;
 }
 
-header {
-    text-align: center;
+.container {
+    max-width: 700px;
+    background: #ffffffee;
+    margin: 50px auto;
     padding: 40px;
-    background: linear-gradient(135deg, #ff8fb1, #ffb3c6);
-    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    animation: fadeIn 1.5s ease;
 }
 
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-    background: #ffe3ee;
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #d6006f;
+}
+
+.texto {
     font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 25px 0;
 }
 
-.cartas {
-    text-align: center;
-    padding: 40px 20px;
+.assinatura {
+    font-style: italic;
+    color: #b00050;
 }
 
-.cartas .card {
-    background: white;
-    display: inline-block;
-    width: 250px;
-    margin: 15px;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform .3s;
-}
-
-.cartas .card:hover {
-    transform: scale(1.05);
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #ff8fb1;
-    color: white;
-    margin-top: 20px;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
