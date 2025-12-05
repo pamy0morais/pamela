@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Declaração Para Você</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hearts"></div>
+
+    <div class="container">
+        <h1>💖 Para Você, Meu Sentimento Mais Bonito 💖</h1>
+
+        <p class="texto">
+            Eu escrevo esta declaração com o coração leve,  
+            mas cheio de tudo o que você desperta em mim.  
+            Porque desde que você chegou,
+            <strong>meu mundo ganhou novas cores, novos sorrisos, novos significados.</strong>
+        </p>
+
+        <p class="texto">
+            Você é aquela paz que acalma,  
+            a alegria que surge sem aviso,  
+            o abraço que mesmo de longe eu sinto.  
+            E, de algum jeito,  
+            <strong>você se tornou a minha forma favorita de sentir.</strong>
+        </p>
+
+        <p class="texto">
+            Se eu pudesse te entregar algo agora,  
+            seria meu peito aberto, sincero,  
+            mostrando que aqui dentro existe um espaço
+            que só você ocupa —  
+            e ocupa com tanta delicadeza,  
+            que às vezes até dói de tão bonito.
+        </p>
+
+        <p class="final">
+            ❤️ Obrigado por existir do jeitinho que você é.  
+            ❤️ Obrigado por tocar minha vida com tanta suavidade.  
+            ❤️ Obrigado por fazer meu coração escolher o seu,  
+            todos os dias, sem hesitar.
+        </p>
+
+        <h2 class="assinatura">— De alguém que te ama em silêncio, mas sente alto demais.</h2>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Declaração Medieval</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="petals.js"></script>
+</head>
+<body>
+
+<header>
+    ✨ Meu Canto Medieval de Amor ✨
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="poemas.html">Poemas</a>
+        <a href="fotos.html">Fotos</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>🌹 À Minha Dama / Meu Cavaleiro 🌹</h1>
+
+    <p style="font-size: 1.4rem; line-height: 1.8;">
+        Em tempos antigos, quando castelos tocavam o céu  
+        e pergaminhos guardavam segredos do coração,  
+        eu teria escrito teu nome em tinta dourada,  
+        como quem sela um feitiço eterno de amor.  
+        <br><br>
+        Pois és tu quem acende o lume de minha alma,  
+        quem transforma o vento em canto,  
+        e o mundo em magia.  
+        <br><br>
+        Que este humilde reino — este site —  
+        seja o reflexo do sentimento que guardo,  
+        tão profundo quanto as histórias esquecidas  
+        nos salões da realeza.
+    </p>
+</div>
+
+</body>
+</html>

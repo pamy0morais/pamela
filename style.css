@@ -1,53 +1,86 @@
 body {
     margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, #ffdfeb, #ffd1e6, #ffecf3);
-    font-family: "Garamond", serif;
-    color: #6d003a;
+    font-family: "Cinzel", serif;
+    background: #f7efe3;
+    color: #4b2e16;
     overflow-x: hidden;
 }
 
-/* Container */
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #b89b75;
+    color: #fff;
+    font-size: 1.8rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Links entre páginas */
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container medieval */
 .container {
-    max-width: 750px;
-    background: #ffffffee;
-    margin: 60px auto;
-    padding: 45px;
-    border-radius: 18px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
-    animation: fadeIn 1.4s ease;
-    backdrop-filter: blur(5px);
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff5e6;
+    padding: 40px;
+    border-radius: 15px;
+    border: 3px solid #b89b75;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* Poemas */
+.poema {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-left: 5px solid #b89b75;
+    background: #fffaf0;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+/* Corações */
+.heart-photo {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    clip-path: path("M 75 30 A 25 25 0 0 1 125 30 L 100 70 L 75 30 Z");
+    /* substitui abaixo por clip-path real */
+    clip-path: polygon(50% 0%, 61% 13%, 75% 25%, 85% 40%, 86% 55%, 78% 70%, 50% 100%, 22% 70%, 14% 55%, 15% 40%, 25% 25%, 39% 13%);
+    border: 4px solid #b89b75;
+    margin: 20px;
+    display: inline-block;
+}
+
+/* Galeria */
+.galeria {
     text-align: center;
 }
 
-h1 {
-    font-size: 2.3rem;
-    margin-bottom: 25px;
-    color: #c10067;
-}
-
-.texto {
-    font-size: 1.35rem;
-    line-height: 1.9;
-    margin: 30px 0;
-}
-
-.final {
-    margin-top: 30px;
-    font-size: 1.25rem;
-    line-height: 1.9;
-    color: #a00055;
-}
-
-.assinatura {
-    margin-top: 30px;
-    font-size: 1.3rem;
-    font-style: italic;
-    color: #b2005b;
-}
-
-/* Hearts Animation */
-.hearts::before,
-.hearts::after {
-    content: "❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️";
+.petal {
     position: fixed;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    background-image: url("https://pngimg.com/uploads/petals/petals_PNG35332.png");
+    background-size: cover;
+    opacity: 0.8;
+    animation: fall linear forwards;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
