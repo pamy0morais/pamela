@@ -8,4 +8,4 @@ function createPetal() {
     setTimeout(() => petal.remove(), 7000);
 }
 
-setInterval(createPetal, 300);
+setInterval(createPetal, 250);
