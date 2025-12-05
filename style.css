@@ -1,46 +1,48 @@
 body {
-    background: #837252;
-    font-family: "Times New Roman", serif;
     margin: 0;
-    font-family: "Playwrite CU", cursive;
-    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #fff0f6;
+    color: #5a0038;
 }
 
-.pergaminho {
-    max-width: 700px;
-    margin: 50px auto;
+header {
+    text-align: center;
     padding: 40px;
-    background: #95b9b8;
-    border: 2px solid #6c8aa1;
-    border-radius: 10px;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
-    background-image: url('https://i.imgur.com/Nt2vX0O.jpg'); /* textura leve */
-    background-size: cover;
-    background-blend-mode: multiply;
+    background: linear-gradient(135deg, #ff8fb1, #ffb3c6);
+    color: white;
 }
 
-h1 {
+.hero {
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
+    padding: 50px 20px;
+    background: #ffe3ee;
+    font-size: 1.2rem;
 }
 
-.linha {
+.cartas {
     text-align: center;
-    font-size: 22px;
-    margin-bottom: 30px;
+    padding: 40px 20px;
 }
 
-p {
-    font-size: 20px;
-    text-indent: 30px;
-    line-height: 1.8;
+.cartas .card {
+    background: white;
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform .3s;
 }
 
-.assinatura {
-    margin-top: 40px;
-    text-align: right;
-    font-style: italic;
-    font-size: 22px;
+.cartas .card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ff8fb1;
+    color: white;
+    margin-top: 20px;
 }
